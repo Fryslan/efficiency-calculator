@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0" prefWidth="713.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="484.0" prefWidth="713.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane minHeight="31.0" prefHeight="31.0" prefWidth="713.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="31.0" prefWidth="713.0" spacing="3.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Region maxHeight="30.0" maxWidth="1.7976931348623157E308" minHeight="30.0" prefHeight="30.0" prefWidth="9999.0" />
+                        <Label minWidth="60.0" prefHeight="19.0" prefWidth="60.0" text="Username">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Label>
+                        <TextField minWidth="150.0" />
+                        <Button mnemonicParsing="false">
+                           <graphic>
+                              <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resources/Search-icon.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <TabPane prefHeight="599.0" prefWidth="713.0" side="LEFT" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                  <Tab closable="false" disable="true">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                    </content>
+                     <graphic>
+                        <Region prefHeight="9.0" prefWidth="9.0" />
+                     </graphic>
+                  </Tab>
+                  <Tab closable="false">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView layoutX="96.0" layoutY="53.0" prefHeight="484.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="C1" />
+                                    <TableColumn prefWidth="75.0" text="C2" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="21.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <cursor>
+                              <Cursor fx:constant="NONE" />
+                           </cursor>
+                           <image>
+                              <Image url="@resources/Settings-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Tab>
+                  <Tab closable="false">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView layoutX="96.0" layoutY="53.0" prefHeight="484.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="C1" />
+                                    <TableColumn prefWidth="75.0" text="C2" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="21.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <cursor>
+                              <Cursor fx:constant="NONE" />
+                           </cursor>
+                           <image>
+                              <Image url="@resources/Skillbar-icon.gif" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Tab>
+                  <Tab closable="false">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView layoutX="96.0" layoutY="53.0" prefHeight="484.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="C1" />
+                                    <TableColumn prefWidth="75.0" text="C2" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="21.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <cursor>
+                              <Cursor fx:constant="NONE" />
+                           </cursor>
+                           <image>
+                              <Image url="@resources/Construction-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Tab>
+                  <Tab closable="false">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView layoutX="96.0" layoutY="53.0" prefHeight="484.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="C1" />
+                                    <TableColumn prefWidth="75.0" text="C2" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="21.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <cursor>
+                              <Cursor fx:constant="NONE" />
+                           </cursor>
+                           <image>
+                              <Image url="@resources/Cooking-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Tab>
+                  <Tab closable="false">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView layoutX="96.0" layoutY="53.0" prefHeight="484.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="C1" />
+                                    <TableColumn prefWidth="75.0" text="C2" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="21.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <cursor>
+                              <Cursor fx:constant="NONE" />
+                           </cursor>
+                           <image>
+                              <Image url="@resources/Crafting-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Tab>
+                  <Tab closable="false">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView layoutX="96.0" layoutY="53.0" prefHeight="484.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="C1" />
+                                    <TableColumn prefWidth="75.0" text="C2" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="21.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <cursor>
+                              <Cursor fx:constant="NONE" />
+                           </cursor>
+                           <image>
+                              <Image url="@resources/Farming-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Tab>
+                  <Tab closable="false">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView layoutX="96.0" layoutY="53.0" prefHeight="484.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="C1" />
+                                    <TableColumn prefWidth="75.0" text="C2" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="21.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <cursor>
+                              <Cursor fx:constant="NONE" />
+                           </cursor>
+                           <image>
+                              <Image url="@resources/Firemaking-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Tab>
+                  <Tab closable="false">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView layoutX="96.0" layoutY="53.0" prefHeight="484.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="C1" />
+                                    <TableColumn prefWidth="75.0" text="C2" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="21.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <cursor>
+                              <Cursor fx:constant="NONE" />
+                           </cursor>
+                           <image>
+                              <Image url="@resources/Fletching-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Tab>
+                  <Tab closable="false">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView layoutX="96.0" layoutY="53.0" prefHeight="484.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="C1" />
+                                    <TableColumn prefWidth="75.0" text="C2" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="21.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <cursor>
+                              <Cursor fx:constant="NONE" />
+                           </cursor>
+                           <image>
+                              <Image url="@resources/Herblore-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Tab>
+                  <Tab closable="false">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView layoutX="96.0" layoutY="53.0" prefHeight="484.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="C1" />
+                                    <TableColumn prefWidth="75.0" text="C2" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="21.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <cursor>
+                              <Cursor fx:constant="NONE" />
+                           </cursor>
+                           <image>
+                              <Image url="@resources/Magic-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Tab>
+                <Tab closable="false">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView layoutX="96.0" layoutY="53.0" prefHeight="484.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                  <TableColumn prefWidth="75.0" text="C1" />
+                                  <TableColumn prefWidth="75.0" text="C2" />
+                                </columns>
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="21.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@resources/Prayer-icon.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="NONE" />
+                           </cursor>
+                        </ImageView>
+                     </graphic>
+                </Tab>
+                  <Tab closable="false">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView layoutX="96.0" layoutY="53.0" prefHeight="484.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="C1" />
+                                    <TableColumn prefWidth="75.0" text="C2" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="21.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <cursor>
+                              <Cursor fx:constant="NONE" />
+                           </cursor>
+                           <image>
+                              <Image url="@resources/Smithing-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
